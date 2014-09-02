@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+#wrapper {
+	position: relative;
+}
+#tooltip {
+	display: none;
+	position: absolute;
+	z-index: 1000;
+}
+.tooltipText {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-size: 14px;
+	background: #444;
+	color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 2px #444;
+	white-space: nowrap;
+	padding: 3px;
+}
